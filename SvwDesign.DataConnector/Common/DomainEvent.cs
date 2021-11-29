@@ -5,12 +5,12 @@ namespace SvwDesign.DataConnector.Common
 {
     public interface IHasDomainEvent
     {
-        public List<BaseDomainEvent> DomainEvents { get; set; }
+        public List<DomainEvent> DomainEvents { get; set; }
     }
 
-    public abstract class BaseDomainEvent
+    public abstract class DomainEvent
     {
-        protected BaseDomainEvent()
+        protected DomainEvent()
         {
             DateOccurred = DateTimeOffset.UtcNow;
         }

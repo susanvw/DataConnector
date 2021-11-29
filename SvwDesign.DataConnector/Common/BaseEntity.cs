@@ -21,6 +21,6 @@ namespace SvwDesign.DataConnector.Common
 
         public string? LastModifiedBy { get; set; }
 
-        public List<BaseDomainEvent> Events = new(); 
+        public List<DomainEvent> Events = new();
     }
 }
