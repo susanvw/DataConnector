@@ -1,4 +1,5 @@
 ﻿using Ardalis.Specification;
+using SvwDesign.DataConnector.Common;
 
 namespace SvwDesign.DataConnector.Interfaces
 {
