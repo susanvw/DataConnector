@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace SvwDesign.DataConnector.Common
@@ -14,9 +15,7 @@ namespace SvwDesign.DataConnector.Common
         {
             DateOccurred = DateTimeOffset.UtcNow;
         }
-
         public bool IsPublished { get; set; }
-
         public DateTimeOffset DateOccurred { get; protected set; } = DateTime.UtcNow;
     }
 }

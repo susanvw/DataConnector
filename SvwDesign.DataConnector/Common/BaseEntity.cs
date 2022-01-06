@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace SvwDesign.DataConnector.Common
 {
     public abstract class BaseEntity<TId>
     {
-        public TId Id { get; set; }
+        [Key]
+        public TId? Id { get; set; }
 
         [ConcurrencyCheck]
         public byte[]? Version { get; set; }
@@ -20,7 +20,5 @@ namespace SvwDesign.DataConnector.Common
         public DateTime? LastModified { get; set; }
 
         public string? LastModifiedBy { get; set; }
-
-        public List<DomainEvent> Events = new();
     }
 }
