@@ -4,7 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>5.1.13</Version>
+    <Version>5.1.13.5</Version>
     <Authors>Susan von Wielligh</Authors>
     <Company>SvwDesign</Company>
     <Description>Basic Data Connector for Identity and base entity and Base Repository with Ardilis as the base repository</Description>
@@ -13,10 +13,6 @@
     <PackageIcon>profile_picture_icon_v1.png</PackageIcon>
     <PackageIconUrl />
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Ardalis.Specification" Version="5.2.0" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Update="profile_picture_icon_v1.png">

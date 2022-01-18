@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace SvwDesign.DataConnector.Common
+namespace SvwDesign.DataConnector
 {
     public abstract class BaseEntity<TId>
     {
@@ -17,8 +17,8 @@ namespace SvwDesign.DataConnector.Common
 
         public string? CreatedBy { get; set; }
 
-        public DateTime? LastModified { get; protected set; }
+        public DateTime? LastModified { get;  set; }
 
-        public string? LastModifiedBy { get; protected set; }
+        public string? LastModifiedBy { get;  set; }
     }
 }
