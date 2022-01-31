@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SvwDesign.DataConnector
+namespace SvwDesign.DataConnector.Common
 {
     public interface IHasDomainEvent
     {

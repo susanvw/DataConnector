@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SvwDesign.DataConnector
+namespace SvwDesign.DataConnector.Common
 {
-    public abstract class ValueObject
+      public abstract class ValueObject
     {
         protected static bool EqualOperator(ValueObject left, ValueObject right)
         {

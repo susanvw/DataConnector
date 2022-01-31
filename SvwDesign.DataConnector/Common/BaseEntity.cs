@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace SvwDesign.DataConnector
+namespace SvwDesign.DataConnector.Common
 {
     public abstract class BaseEntity<TId>
     {
